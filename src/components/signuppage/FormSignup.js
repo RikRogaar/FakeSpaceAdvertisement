@@ -3,7 +3,7 @@ import useForm from './useForm'
 import validate from "./validateInfo"
 import "./Form.css"
 
-const FormSignup = (submitForm) => {
+function FormSignup({submitForm}) {
     const {handleChange, values, handleSubmit, errors} = useForm(submitForm, validate)
 
 
