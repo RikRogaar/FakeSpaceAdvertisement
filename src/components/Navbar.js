@@ -29,7 +29,7 @@ const Navbar = () => {
     <>
     <nav className="navbar">
         <div className="navbar-container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <Link to="/home" className="navbar-logo" onClick={closeMobileMenu}>
                 SPCE 
                 <i className="fas fa-meteor"></i>
             </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className="nav-item">
-                    <Link to='/startpage' className="nav-links" onClick={closeMobileMenu}>
+                    <Link to='/' className="nav-links" onClick={closeMobileMenu}>
                         Start
                     </Link>
                 </li>
